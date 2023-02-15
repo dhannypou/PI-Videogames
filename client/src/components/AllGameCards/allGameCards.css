@@ -1,0 +1,28 @@
+.allGames {
+    margin: 0 auto;
+    display: inline-block;
+    width: 90%;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.allGames-cnt {
+    width: 100%;
+    /* background-color: #000; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    padding: 2em;
+    
+    
+    /* column-gap: 15em; */   
+}
+
+.allGames-cnt--link {
+    text-decoration: none;
+    color: #f2cbe8;
+    font-size: 1.5em;
+    font-weight: 600;
+    transition: .6s;
+    
+}

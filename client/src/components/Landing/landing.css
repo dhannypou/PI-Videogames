@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.landing-cnt {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/597/476/61/shermie-king-of-fighters-video-games-video-game-characters-video-game-girls-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.landing-tit_cnt {
+    /* background-color: rgba(240, 248, 255, 0.392); */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.landing-tit_cnt--space {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+    /* background-color: yellow; */
+}
+
+
+.landing-tit_cnt h1{
+    width: 50%;
+    padding: 1.3em 0;
+    /* background-color: aqua; */
+    height: 100%;
+    font-size: 6em;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+    color: #ffacd1;
+    text-shadow: 
+                    0 0 5px #FF3491,
+                    0 0 25px #FF3491,
+                    0 0 50px #FF3491,
+                    0 0 100px #FF3491
+                    ;
+}
+
+.landing-cnt_button {
+    /* background-color: #ffacd195; */
+    height: 60%;
+    /* padding: 1em 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.landing-cnt_button--space {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.landing-cnt_button--link {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+    /* background-color: #fff; */
+}
+
+.landing-btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: #a945c71c;
+    border-radius: 5px;
+    border: 1px solid #a945c7;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.landing-btn:hover {
+    background-color: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s;
+
+}
+
+.landing-btn span {
+    position: absolute;
+    display: block;
+
+}
+
+#span1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #a945c7);
+    animation: animate1 1s linear infinite;
+
+}
+
+.landing-btn:hover #span1 {
+    left: 100%;
+    transition: 1s;
+
+}
+
+#span3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #a945c7);
+    animation: animate3 1s linear infinite;
+
+}
+
+.landing-btn:hover #span3 {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+#span2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #a945c7);
+    animation: animate2 1s linear infinite;
+
+}
+
+.landing-btn:hover #span2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+
+}
+
+#span4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #a945c7);
+    animation: animate4 1s linear infinite;
+
+}
+
+.landing-btn:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.05s;
+    
+
+}

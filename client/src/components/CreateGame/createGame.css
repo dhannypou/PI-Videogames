@@ -1,0 +1,213 @@
+.createGame-cnt {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    /* background-color: aqua; */
+    padding-top: 5vh;
+    background-image: url(https://play-lh.googleusercontent.com/DA1R9Kild286J_1BM_83ABtSVg1A5cPlono6_yj45zQ4yJwXa9OlQNz6LB0zurShAA);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.createGame-cnt form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   /*  width: 30%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.204);
+    box-shadow: 4px 4px 6px 1px rgba(0, 0, 0, 0.325); */
+}
+
+.form-name {
+    /* background-color: red; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+
+.form-name label {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.form-name input {
+    width: 30em;
+    margin: 0 auto;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.337);
+}
+
+.form-name  p {
+    color: rgb(190, 0, 0);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.form-released {
+    /* background-color: rgb(0, 191, 255); */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+
+.form-released label {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.form-released input {
+    width: 30em;
+    margin: 0 auto;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.337);
+
+}
+
+.form-rating {
+    /* background-color: rgb(0, 191, 255); */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+
+.form-rating label {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.form-rating input {
+    width: 30em;
+    margin: 0 auto;
+    height: 2.5em;
+    border: none;
+    outline: none;
+}
+
+.form-description {
+    /* background-color: rgb(0, 191, 255); */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+
+.form-description label {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.form-description textarea {
+    width: 30em;
+    margin: 0 auto;
+    height: 6em;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.337);
+}
+
+.form-description  p {
+    color: rgb(190, 0, 0);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.form-genres {
+    /* background-color: rgb(0, 191, 255); */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+
+.form-genres label {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.form-genres select {
+    width: 30em;
+    margin: 0 auto;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.337);
+}
+
+
+.form-platforms {
+    /* background-color: rgb(0, 191, 255); */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+
+.form-platforms label {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.form-platforms select {
+    width: 30em;
+    margin: 0 auto;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.337);
+}
+
+.form-image {
+    /* background-color: rgb(0, 191, 255); */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+
+.form-image label {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.form-image input {
+    width: 30em;
+    margin: 0 auto;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.337);
+}
+
+.createGame-cnt .btn-create{
+
+    padding: .8em .5em;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #a945c71c;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.fondo {
+    background-image: url(https://w0.peakpx.com/wallpaper/600/842/HD-wallpaper-neon-triforce-videogames-colors-black-triforce-green-purple-multicolor-zelda-neon-white-pink-light-blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
